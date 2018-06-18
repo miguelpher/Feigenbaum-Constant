@@ -1,4 +1,5 @@
-n = 25;
+n = 30; % number of iterations 
+\p 45 % precission  
 
 mu = vector(n);
 a0 = 2; a1 = 1 + sqrt(5); d  = 4;
