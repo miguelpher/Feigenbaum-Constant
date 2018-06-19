@@ -19,7 +19,8 @@ for(k = 3, n,
         a = a - (res-0.5)/der;
     );
     d = (a1-a0)/(a-a1);
-	print(k," ",d);
+    time=gettime();
+	print(k," ",d,"    done in ",time," ms.");
     a0 = a1; a1 = a;
     mu[k] = a;
 );
